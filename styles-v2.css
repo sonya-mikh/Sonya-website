@@ -45,9 +45,37 @@ h2{
   margin: 14px 0 0;
 }
 
+.social{
+  display:flex;
+  align-items:center;
+  gap:8px;
+  text-decoration:none;
+}
+
 .work{ margin: 18px 0; }
 .work .title{ font-weight: 650; }
 
 .footer{ margin-top: 26px; }
+
+.footer{ margin-top: 26px; }
+
+
+/* Instagram icon style */
+.social{
+  display:flex;
+  align-items:center;
+  gap:8px;
+  text-decoration:none;
+}
+
+.icon{
+  width:16px;
+  height:16px;
+  opacity:0.8;
+}
+
+.social:hover .icon{
+  opacity:1;
+}
 
 
